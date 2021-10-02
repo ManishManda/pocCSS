@@ -1,0 +1,114 @@
+body{
+    margin:0
+}
+header{ 
+    background-color:#1B1B1B;
+    color:aliceblue;
+    font-family:  'Quicksand', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin: 0;
+}
+li a{
+    text-align: center;
+    padding:5px;
+    font-size: 14px;
+    cursor: pointer;
+  
+}
+li a:hover{
+    color:lightcoral;
+}
+.container-icons{
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+}
+.container-header{
+    display: inline-flex;
+    justify-content: center;
+   width:50%;
+}
+.container-nav{
+    margin: 0;
+}
+.right-icons
+{
+    height: inherit;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding:0;
+    
+}
+.on-banner{
+    color: ivory;
+    position: absolute;
+    top:40%;
+    left:60%
+}
+.on-banner h1{
+    font-size: 56px;
+    font-family: 'DM Sans', sans-serif;
+}
+.on-banner p,button{
+    font-family:  'Quicksand', sans-serif;
+}
+button{
+    width:20%;
+    height:auto;
+    color: rgb(231, 87, 87);
+    background: none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    font-size: 18px;
+    padding-right: 50px;
+}
+.section-1{
+    margin:0;
+    padding:0;
+    background-color: rgb(158, 158, 158);
+}
+.section-image-1{
+    margin: 0;
+    padding:0;
+}
+.section-image-1 img{
+    margin: 30px;
+    padding:0;
+    border-radius: 3%;
+}
+.section-imagetext{
+    color: rgb(240, 236, 231);
+    top:70%;
+  
+}
+.section-insta{
+    width: 80%;
+    height:300px;
+    background-color: rgb(170, 167, 167);
+}
+.insta-title{
+    margin: 40px;
+}
+.insta-posts{
+    margin: 40px;
+ display: flex;
+ justify-content: space-between;
+}
+.insta-posts img{
+    width:10%
+}
