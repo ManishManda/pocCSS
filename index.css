@@ -305,3 +305,7 @@ input[type="text"]:focus {
 .bestsellers-images img {
   border-radius: 10px;
 }
+.mountainbike {
+  display: flex;
+  align-items: center;
+}
