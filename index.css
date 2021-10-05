@@ -106,10 +106,10 @@ button {
   background-color: #f7f7f7;
 }
 .insta-title {
-  margin: 18px;
-  width: 30%;
+  margin: 40px;
+  width: 35%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: baseline;
 }
 
@@ -285,4 +285,23 @@ input[type="text"]:focus {
 }
 .middleimage img {
   width: inherit;
+}
+.bestsellers-container {
+  background-color: #f7f7f7;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bestsellers-images {
+  background-color: #f7f7f7;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.bestsellers-text {
+  width: 40%;
+}
+.bestsellers-images img {
+  border-radius: 10px;
 }
