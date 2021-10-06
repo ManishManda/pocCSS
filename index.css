@@ -260,46 +260,33 @@ input[type="text"]:focus {
   grid-column-start: 1;
   grid-column-end: 3;
   position: relative;
+  height: fit-content;
 }
 .images img {
   border-radius: 15px;
 }
-.imgtext {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 60%;
-  background: rgba(0, 0, 0, 0.7);
-  color: ivory;
-  text-align: center;
-}
+
 .imgtext3 {
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 65%;
+  bottom: 0;
   background: rgba(0, 0, 0, 0.7);
   color: ivory;
   text-align: center;
+  border-radius: 0 0 10px 10px;
+  width: -webkit-fill-available;
 }
 .imgtext4 {
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 70%;
+  top: 84%;
   background: rgba(0, 0, 0, 0.7);
   color: ivory;
   text-align: center;
-  width: 500px;
-}
-.imgtext5 {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 90%;
-  background: rgba(0, 0, 0, 0.7);
-  color: ivory;
-  text-align: center;
+  width: -webkit-fill-available;
+  border-radius: 10px;
 }
 .imgtext1 {
   margin: 0;
@@ -310,6 +297,7 @@ input[type="text"]:focus {
   color: ivory;
   text-align: center;
   width: 450px;
+  border-radius: 0 0 10px 10px;
 }
 .middleimage img {
   width: inherit;
@@ -397,4 +385,38 @@ address {
 }
 .bestsellers-container h1 {
   margin: 30px;
+}
+.overlapimg {
+  position: absolute;
+  left: 60%;
+  bottom: 40%;
+}
+.mountainbike {
+  background-color: #f7f7f7;
+}
+.mountainbikediv {
+  position: relative;
+  width: 70%;
+}
+.mountainbikediv > img {
+  border-radius: 10px;
+  margin: 30px;
+}
+.imagesdate {
+  margin: 0;
+  display: inline;
+  padding: 20px;
+}
+.latestnews {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+}
+hr {
+  border-top: rgb(135, 136, 138);
+}
+.right-iconscontainer {
+  float: right;
+  height: 60px;
+  width: 10%;
 }
