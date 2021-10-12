@@ -20,7 +20,7 @@
         <div class="container-icons">
             <i class="fas fa-search"></i>
         </div>
-        <div class="container-nav">
+        <div class="container-nav" >
                 <ul>
                     <li href="#"><a>HOME</a></li>
                     <li href="#"><a>PAGE ONE </a></li>
@@ -35,11 +35,19 @@
              <div class="icons"><i class="fas fa-shopping-cart"></i></div>
           
             <div class="icons"><i class="far fa-user"></i></div>
-            <div class="icons"> <i class="fas fa-bars"></i></div>
+            <div class="icons" onclick="clicking()" id= "hamburger"> <i class="fas fa-bars"></i></div>
         </div>
     </div>
     </div>
     </header>
+    <div  id="resnavig">
+        <ul id="navlist">
+            <li href="#"><a>HOME</a></li>
+            <li href="#"><a>PAGE ONE </a></li>
+            <li href="#"><a>PAGE TW0</a></li>
+            <li href="#"><a>PAGE THREE</a></li>
+        </ul>
+</div>
     <div class="banner"> 
         <img src="banner.jfif">
         <div class="on-banner">
@@ -235,8 +243,8 @@
                 <div class="footer-2-left">
                     <ul class="footer-2-list">
                         <li href="#"><a>@Copyright 2016</a></li>
-                        <li href="#"><a>Terms & Conditions </a></li>
-                        <li href="#"><a>Privacy Policy</a></li>
+                        <li class="noLi"href="#"><a>Terms & Conditions </a></li>
+                        <li class="noLi"href="#"><a>Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-2-right">
@@ -247,6 +255,22 @@
 
             </div>
         </footer>
+        <script>
+            function clicking()
+            {
+                var menu=document.getElementById("resnavig");
+                console.log("i am in function");
+                if(menu.style.display=="block")
+                {
+                   
+                    menu.style.display="none"
+                }
+                else
+                {
+                    menu.style.display="block";
+                }
+            }
+        </script>
 
     
     

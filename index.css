@@ -1,6 +1,20 @@
 @media screen and (min-width: 992px) {
+  .container-nav {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  #resnavig {
+    display: none;
+  }
+  #hamburger {
+    display: none;
+  }
   img {
     border-radius: 10px;
+  }
+  .banner img {
+    border-radius: 0;
   }
   h2 {
     margin-left: 40px;
@@ -330,8 +344,8 @@ li {
 }
 li a {
   text-align: center;
-  padding: 5px;
-  font-size: 14px;
+  padding: 10px;
+  font-size: 12px;
   cursor: pointer;
 }
 li a:hover {
@@ -402,11 +416,7 @@ li a:hover {
   justify-content: flex-start;
   width: 90%;
 }
-.container-nav {
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
+
 .right-icons {
   height: inherit;
   display: flex;
@@ -454,9 +464,7 @@ header {
   img {
     width: 100%;
   }
-  .container-nav {
-    display: none;
-  }
+
   .right-iconscontainer {
     float: none;
     width: 40%;
@@ -520,6 +528,7 @@ header {
   .footer-2-list {
     justify-content: center;
     font-size: 5px;
+    padding: 0;
   }
   .footer-2-list li a {
     font-size: 12px;
@@ -534,6 +543,7 @@ header {
     text-align: center;
     display: flex;
     font-size: 12px;
+    padding: 10px;
   }
   .mountainbike > div {
     width: 100%;
@@ -543,7 +553,7 @@ header {
     object-fit: cover;
   }
   .inputtext {
-    width: 90%;
+    width: 100%;
   }
   .insta-posts img {
     height: 100px;
@@ -553,33 +563,36 @@ header {
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: 0%;
+    bottom: 0px;
     background: rgba(0, 0, 0, 0.7);
     color: ivory;
     width: -webkit-fill-available;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
   }
   .imgtext1 {
     position: absolute;
     bottom: 0%;
     background: rgba(0, 0, 0, 0.7);
     color: ivory;
-    width: 100%;
     border-radius: 0 0 10px 10px;
+    padding: 10px;
   }
   .latestnews {
     position: relative;
+    padding-top: 20px;
   }
   .imgtext3 {
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     background: rgba(0, 0, 0, 0.7);
     color: ivory;
 
     border-radius: 0 0 10px 10px;
     width: -webkit-fill-available;
+    padding: 10px;
   }
   .middleimage {
     width: 100%;
@@ -594,5 +607,25 @@ header {
   }
   address {
     font-size: 12px;
+  }
+  .noLi {
+    display: none;
+  }
+  .container-nav {
+    display: none;
+  }
+  #resnavig {
+    display: none;
+    background-color: #1b1b1b;
+    color: white;
+    font-size: 12px;
+    font-family: inherit;
+  }
+  #navlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
   }
 }
